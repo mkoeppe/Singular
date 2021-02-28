@@ -178,7 +178,7 @@ public:
     friend bool operator < ( const CanonicalForm&, const CanonicalForm& );
 
     // arithmetic operators
-    friend CF_NO_INLINE CanonicalForm operator - ( const CanonicalForm& );
+    friend CF_NO_INLINE CanonicalForm FACTORY_PUBLIC operator - ( const CanonicalForm& );
 
     friend void FACTORY_PUBLIC divrem ( const CanonicalForm&, const CanonicalForm&, CanonicalForm&, CanonicalForm& );
     friend bool divremt ( const CanonicalForm&, const CanonicalForm&, CanonicalForm&, CanonicalForm& );
