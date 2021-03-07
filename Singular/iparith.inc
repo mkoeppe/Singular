@@ -683,6 +683,8 @@
 // operation: lift (module, module, matrix)  ->  matrix
 // operation: liftstd (ideal, matrix, module)  ->  ideal
 // operation: liftstd (module, matrix, module)  ->  module
+// operation: liftstd (ideal, matrix, string)  ->  ideal
+// operation: liftstd (module, matrix, string)  ->  module
 // operation: matrix (ideal, int, int)  ->  matrix
 // operation: matrix (module, int, int)  ->  matrix
 // operation: matrix (matrix, int, int)  ->  matrix
@@ -754,6 +756,7 @@
 // operation: liftstd (...)  ->  ideal ( 2 arguments )
 // operation: liftstd (...)  ->  ideal ( 3 arguments )
 // operation: liftstd (...)  ->  ideal ( 4 arguments )
+// operation: liftstd (...)  ->  ideal ( 5 arguments )
 // operation: list (...)  ->  list ( any number of arguments )
 // operation: luinverse (...)  ->  list ( number of arguments >0 )
 // operation: lusolve (...)  ->  list ( number of arguments >0 )
@@ -763,6 +766,7 @@
 // operation: module (...)  ->  module ( any number of arguments )
 // operation: modulo (...)  ->  module ( 2 arguments )
 // operation: modulo (...)  ->  module ( 3 arguments )
+// operation: modulo (...)  ->  module ( 4 arguments )
 // operation: names (...)  ->  list ( 1 arguments )
 // operation: names (...)  ->  list ( 0 arguments )
 // operation: $INVALID$ (...)  ->  $INVALID$ ( 2 arguments )
