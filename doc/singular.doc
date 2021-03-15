@@ -906,7 +906,7 @@ iniD, reslist, sumlist, dividelist, createlist
 @c ---------------------------------------------------------
 @node recover_lib
 @subsection recover_lib
-@c lib recover.lib
+@c lib recover.lib tag:bertini
 @c ----------------------------------------------------------
 @node rootisolation_lib
 @subsection rootisolation_lib
@@ -1128,7 +1128,7 @@ but not for serious computations.
 @c ----------------------------------------------------------
 @node polymake_lib
 @subsection polymake_lib
-@c lib polymake.lib
+@c lib polymake.lib tag:polymake
 @c ----------------------------------------------------------
 @node realizationMatroids_lib
 @subsection realizationMatroids_lib
@@ -1208,6 +1208,7 @@ Comments should be send to the author of the library directly.
 * GND_lib:: General Neron Desingularization
 * gradedModules_lib::Operations with graded modules/matrices/resolutions
 * hodge_lib:: Algorithms for Hodge ideals
+* lrcalc_lib:: interface to the Littlewood-Richardson Calculator by Anders Buch
 * maxlike_lib:: maximum likelihood estimates
 * modwalk_lib:: Groebner basis conversion
 * multigrading_lib:: Multigradings and related computations
@@ -1259,6 +1260,10 @@ Issues:
 @subsection hodge_lib
 @c lib hodge.lib
 @c ----------------------------------------------------------
+@node lrcalc_lib
+@subsection lrcalc_lib
+@c lib lrcalc.lib
+@c ----------------------------------------------------------
 @node maxlike_lib
 @subsection maxlike_lib
 @c lib maxlike.lib
@@ -1295,7 +1300,7 @@ Todos/Issues:
 @c ----------------------------------------------------------
 @node stanleyreisner_lib
 @subsection stanleyreisner_lib
-@c lib stanleyreisner.lib
+@c lib stanleyreisner.lib tag:crash
 @c ---------------------------------------------------------
 @node swalk_lib
 @subsection swalk_lib

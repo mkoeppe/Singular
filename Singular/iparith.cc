@@ -3002,7 +3002,6 @@ static BOOLEAN jjQUOT(leftv res, leftv u, leftv v)
 {
   res->data = (char *)idQuot((ideal)u->Data(),(ideal)v->Data(),
     hasFlag(u,FLAG_STD),u->Typ()==v->Typ());
-  id_DelMultiples((ideal)(res->data),currRing);
   if (TEST_OPT_RETURN_SB) setFlag(res,FLAG_STD);
   return FALSE;
 }
@@ -7860,6 +7859,7 @@ static BOOLEAN jjLIFTSTD_M(leftv res, leftv U)
       idhdl hw=(idhdl)u3->data;
       syz=&(hw->data.uideal);
       alg=syGetAlgorithm((char*)u4->Data(),currRing,(ideal)u->Data());
+      h11=(ideal)u5->Data();
     }
     else
     {
