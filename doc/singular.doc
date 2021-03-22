@@ -604,7 +604,7 @@ LIB "all.lib";
 @c ----------------------------------------------------------
 @node chern_lib
 @subsection chern_lib
-@c lib chern.lib
+@c lib chern.lib tag:lrcalc
 @c ----------------------------------------------------------
 @node deRham_lib
 @subsection deRham_lib
@@ -1136,7 +1136,7 @@ but not for serious computations.
 @c ----------------------------------------------------------
 @node tropical_lib
 @subsection tropical_lib
-@c lib tropical.lib
+@c lib tropical.lib tag:gfan
 @c ----------------------------------------------------------
 @node tropicalNewton_lib
 @subsection tropicalNewton_lib
@@ -1262,7 +1262,7 @@ Issues:
 @c ----------------------------------------------------------
 @node lrcalc_lib
 @subsection lrcalc_lib
-@c lib lrcalc.lib
+@c lib lrcalc.lib tag:lrcalc
 @c ----------------------------------------------------------
 @node maxlike_lib
 @subsection maxlike_lib
