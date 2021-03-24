@@ -1,4 +1,4 @@
-AC_INIT([singular], [4.2.0p1+2021-03-24+sage], [singular@mathematik.uni-kl.de])
+AC_INIT([singular], [4.2.0p1+2021-03-24+sage-2], [singular@mathematik.uni-kl.de])
 
 AC_SUBST([VERSION_DATE], 2021)
 AC_DEFINE([VERSION_DATE],["Dec 2020"],[release date])
